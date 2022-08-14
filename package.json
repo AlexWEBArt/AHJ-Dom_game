@@ -1,5 +1,5 @@
 {
-  "name": "ahj-dom_game",
+  "name": "ahj-working_environment_yarn",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "repository": "https://github.com/AlexWEBArt/AHJ-Dom_game.git",
+  "repository": "https://github.com/AlexWEBArt/AHJ-Working_environment_yarn.git",
   "author": "AlexWEBArt",
   "license": "MIT",
   "devDependencies": {
@@ -35,6 +35,7 @@
     "live-server": "^1.2.2",
     "mini-css-extract-plugin": "^2.6.1",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "push-dir": "^0.4.1",
     "terser-webpack-plugin": "^5.3.3",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
