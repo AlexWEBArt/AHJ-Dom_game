@@ -4,9 +4,9 @@ export default setInterval(() => {
   let randomIndex = Math.floor(1 + Math.random() * 16 - 1 + 1);
   if (prevGoblinIndex === randomIndex) {
     if (randomIndex === 16) {
-      randomIndex = -1;
+      randomIndex -= 1;
     }
-    randomIndex = +1;
+    randomIndex += 1;
   }
   const nextGoblin = document.getElementById(`hole${randomIndex}`);
 
